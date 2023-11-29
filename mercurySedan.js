@@ -13,7 +13,18 @@ console.log(v.make)
 
 //TO DO: Code the Car subclass here or in index.js file, i.e. class Car extends Vehicle ...
 
-
+//Added Car class that extends vehicle class
+class Car extends Vehicle{
+    constructor() {
+        super(Car)
+        this.maximumPassengers = 5;
+        this.passengers = 0;
+        this.numberOfWheels = 4;
+        this.maximumSpeed = 160;
+        this.fuel = 10;
+        this.scheduleService = false;
+    }
+}
 
 
 
