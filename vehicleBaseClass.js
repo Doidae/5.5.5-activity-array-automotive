@@ -53,6 +53,7 @@ class Vehicle {
         }
     }
     stop() {
+        console.count('The Engine has stopped')
         this.started = false;
     }
 
@@ -69,8 +70,7 @@ class Vehicle {
     }
 
     autoDrive()
-    {
-      
+    {   
     }
 
     typeOfVehicle(wheels) {
